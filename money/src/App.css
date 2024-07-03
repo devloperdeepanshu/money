@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.App
+{
+  background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav
+{
+  background-color: rgb(32, 32, 32);
+  height: 80px;
+  padding: 10px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#search
+{
   color: white;
+  font-weight: bolder;
 }
-
-.App-link {
-  color: #61dafb;
+#main-head
+{
+  font-size: small;
+  margin-bottom: 5px ;
+  color: white;
+  text-align: center;
+  margin-top: -21px;
+  font-weight: bold;
+  line-height: 20px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#cal
+{
+  color: white;
+  float: right;
+  margin-top: -25px;
+}
+#date
+{
+  width: 50px;
+ 
+}
+#head
+{
+  color: rgba(255, 255, 255, 0.505);
+  font-size: small;
+}
+#day
+{
+  color: white;
+  font-size: x-large;
+  display: flex;
+  flex-direction:row;
+  cursor:context-menu;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#day1
+{
+  font-size: larger;
+  margin-top: 7px;
+}
+#day2
+{
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.181);
+  margin-top: -2px;
+  font-weight: 2px;
+}
+#nav2
+{
+  flex-direction: row;
+  display: flex ;
+  
+}
+#ex,#in,#bal
+{
+  color: rgba(255, 255, 255, 0.514);
+  margin-left: 35px;
+  font-size: small;
+  margin-top: 3px;
+}
+#inn
+{
+  margin-left: 10px;
+}
+#exx,#inn,#ball
+{
+  width: 70px;
+  flex-direction: column;
+}
+#ex1,#in1,#bal1
+{
+  margin-left: 35px;
+  color: white;
+  font-size: x-large;
+}
+#navv
+{
+  background-color: aquamarine;
+  width: 100%;
+  margin-top:577px ;
 }
